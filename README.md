@@ -16,7 +16,7 @@
 # Few Lines about Qaiser Farooq
 <br>
 
-Hi 👋, I am Muhammad Rashid, an early career **researcher** working in **Artificial Intelligence**, **Computer Vision** and **eXplainable AI**.
+Hi 👋, I am Muhammad QAAAAAAAAAAAAAAAAIIIIIIIIIIIIIRRRRRRRRRRRR, an early career **researcher** working in **Artificial Intelligence**, **Computer Vision** and **eXplainable AI**.
 
 
 
