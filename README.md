@@ -13,10 +13,10 @@
 -->
 
 
-# Few Lines about Qaiser Farooq
+# Few Lines about Qaisar Farooq
 <br>
 
-Hi 👋, I am Qaisar Farooq, an early career **researcher** working in **Artificial Intelligence**, **Computer Vision** and **eXplainable AI**.
+Hi 👋, I am Qaisar Farooq, an early career **researcher** working in **Artificial Intelligence**, **Computer Vision** and **FPGA**.
 
 
 
@@ -25,15 +25,20 @@ Hi 👋, I am Qaisar Farooq, an early career **researcher** working in **Artific
 |  Sr. No. | Degree 📘  | Institute                                             | From |  To  |
 |  :---:   | :--------   | :------                                              | :--:  | :--: |
 | a.       | **Ph. D.(CS)**  | *_University of Turin_*, Italy.                          | 2022  | 2025 |
-| b.       | **MS(CS)**      | *_Comsats University Islamabad_*, Wah Campus, Pakistan.  | 2017  | 2019 |
-| c.       | **BS(CS)**      | *_Allama Iqbal Open University_* Islamabad, Pakistan.    | 2010  | 2016 |
+| b.       | **MS(Energy & Environment)**      | *_Southeast University Nanjing_*, SiPailou Campus, China.  | 2018  | 2021 |
+| c.       | **Chinese Language (HSK4)**      | *_Southeast University Nanjing_*, SiPailou Campus, China.  | 2017  | 2018 |
+| d.       | **B-Tech (Hon)- Electrical**      | *_Sarhad University of Science & Information Technology_* Peshawar, KPK, Pakistan.    | 2012  | 2016 |
+| e.       | **DiT (2nd Time)**      | *_Sayyed College of Science & Technology_* Rahim Abad Swat, KPK, Pakistan.    | 2014  | 2015 |
+| f.       | **Safety Supervisor (Electrical) Technical Training Course (Part time)**      | *_Thana Institute of Technology Barikot, Swat, KPK, Pakistan.    | 2014  | 2015 |
+| g.       | **Diploma of Associate Engineer in Electrical Technology**      | *_Chakdara Polytechnic Institute, Chakdara Dir (L), KPK, Pakistan.    | 2009  | 2012 |
+
 
 <br>
 
 # Educational Achievements 💻
 ## a. PhD(CS): 
 **Details about PhD work**: 
-- ***Title, & Type***: Industrial PhD funded by PNRR-CINECA Italy for European Projects
+- ***Title, & Type***: "Energy Efficiency and Performance tradeoffs in FPGA-based Embedded AI Applications" Italian Government Scholarship
 
 
 
@@ -41,25 +46,25 @@ Hi 👋, I am Qaisar Farooq, an early career **researcher** working in **Artific
 ## b. Master Degree 
 
 **Degree Details**: 
-- ***Title & Duration***: Master of Science (Computer Vision and Graphics), 2017-2019
+- ***Title & Duration***: Master of Science (Energy & Environment), 2018-2021
 - ***Courses Taken***: [`Here`](courses.md#b-courses-taken-in-master-degree) is the summary of Courses and other Training Activities.   
 
 
 ## c. Bachelor Degree
 
 
- Bachelor of Science (Computer Science - **_Web Development_**) 
+ Bachelor of Technology Honor (Electrical - **_GSM Based RDLC-Arduino based_**) 
 
 **Degree Details**: 
-- ***Title***: Bachelor of Science (Computer Science - Web Development) (2016)
-- ***Keywords***: Software Engineering, Web development, Web Applications, Web Security, Information Security. 
+- ***Title***: Bachelor of Technology in Electrical (Hon) (2016)
+- ***Keywords***: Embedded System, Digital Designing, Information Techonology,GSM Technology, IoT, Smart Grid Technology. 
 
 
 ##  3. Awards/Honors 🏆:
 
 | Sr. No.| Award Type    | Awarded By        |   Dated   | Reason | Link |
 | :---:  | ------------------  | ------------     |   :---:   | :---:   |   :---:    |     
-| 1.  | Erasmus Traineeship  | [Erasmus+](https://erasmus-plus.ec.europa.eu) |   Dec, 2024   |   **Erasmus Scholarship** for **Research Activities** in **Spain**    | **_LINK_** |
+| 1.  | Erasmus Traineeship  | [Erasmus+](https://erasmus-plus.ec.europa.eu) |   Feb, 2025   |   **Erasmus Scholarship** for **Research Activities** in **Germany**    | **_LINK_** |
 
 
 <div style="text-align: right;">
