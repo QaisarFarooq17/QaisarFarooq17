@@ -55,12 +55,13 @@ Hi 👋, I am Qaisar Farooq, an early career **researcher** working in **Artific
 
 | Sr. No. | Award                                | Awarded By              | Date        | Details                                    | Link                                                                                  |
 | :-----: | :----------------------------------- | :---------------------- | :---------- | :----------------------------------------- | :------------------------------------------------------------------------------------ |
-|    1.   | Italian Government Scholarship       | University of Turin     | Nov 1, 2022 | Fully funded PhD scholarship               | [Profile](https://informatica.unito.it/do/docenti.pl/Alias?qaisar.farooq#tab-profilo) |
-|    2.   | CSC Chinese Government Scholarship   | Southeast University    | Sep 2017    | Fully funded M.S. scholarship              | —                                                                                     |
-|    3.   | Bright Student Award                 | Sarhad University of IT | 2016        | Top B.Tech performance across semesters    | —                                                                                     |
-|    4.   | SUIT Scholarship                     | Sarhad University of IT | 2012        | Academic excellence scholarship            | —                                                                                     |
-|    5.   | 8th Position in KPK (DAE Electrical) | Chakdara Polytechnic    | 2012        | Province-wide exam rank                    | —                                                                                     |
-|    6.   | Semi-Scholarship (DAE Electrical)    | Chakdara Polytechnic    | 2010        | Awarded for smart skills in tests/projects | —                                                                                     |
+|    1.   | ERASMUS+ TRAINEESHIP 2024-25         | University of Turin     | Nov 2024    | Fully funded by National Agency Scholarship| —                                                                                     |
+|    2.   | Italian Government Scholarship       | University of Turin     | Nov 1, 2022 | Fully funded PhD scholarship               | [Profile](https://informatica.unito.it/do/docenti.pl/Alias?qaisar.farooq#tab-profilo) |
+|    3.   | CSC Chinese Government Scholarship   | Southeast University    | Sep 2017    | Fully funded M.S. scholarship              | —                                                                                     |
+|    4.   | Bright Student Award                 | Sarhad University of IT | 2016        | Top B.Tech performance across semesters    | —                                                                                     |
+|    5.   | SUIT Scholarship                     | Sarhad University of IT | 2012        | Academic excellence scholarship            | —                                                                                     |
+|    6.   | 8th Position in KPK (DAE Electrical) | Chakdara Polytechnic    | 2012        | Province-wide exam rank                    | —                                                                                     |
+|    7.   | Semi-Scholarship (DAE Electrical)    | Chakdara Polytechnic    | 2010        | Awarded for smart skills in tests/projects | —                                                                                     |
 
 <div align="right">
   <a href="#top" style="display:inline-block;padding:5px 10px;background-color:#469B60;color:white;border-radius:5px;">Go to TOP</a>
@@ -96,6 +97,7 @@ Hi 👋, I am Qaisar Farooq, an early career **researcher** working in **Artific
 | :-----: | :---------------------------------------------------- | :---------------------------- | :---------------------- | :-------------- | :---------------------------------------- |
 |    1.   | FPGA Ignite Summer School & Poster Presentations 2024 | Presenter; Best Project Award | Heidelberg, Germany     | Aug 5–9, 2024   | [Details](https://fpga-ignite.github.io/) |
 |    2.   | OxML 2024: MLx Rep. Learning & Generative AI          | Participant                   | Oxford, UK              | Jul 6–14, 2024  | [OxML](https://www.oxfordml.school/)      |
+|    3.   | INTERSECTIONAL SOLIDARITY NETWORK under Erasmus+      | Participant                   | Österfärnebo, Sweden    | Nov 1–11, 2023  | [Details]([https://www.oxfordml.school/](https://www.salto-youth.net/tools/european-training-calendar/training/intersectional-solidarity-network-tc1.11430/)      |
 |    3.   | BISS 2023 – Bertinoro Int. Spring School              | Participant                   | Bertinoro, Italy        | Mar 12–17, 2023 | [BISS'](https://www.ceub.it/)             |
 |    4.   | 2021 IEEE Kansas Power & Energy Conf.                 | Attendee                      | Manhattan, KS, USA      | Apr 18–19, 2021 | —                                         |
 |    5.   | 6th Nuclear Energy Cyber Security Conference          | Attendee                      | Nanjing, China          | Nov 28, 2019    | —                                         |
@@ -139,13 +141,17 @@ Hi 👋, I am Qaisar Farooq, an early career **researcher** working in **Artific
 
 | Sr. No. | Role                                 | Organization                                      | Location                   |   From   |    To    |
 | :-----: | :----------------------------------- | :------------------------------------------------ | :------------------------- | :------: | :------: |
-|    1.   | Researcher                           | Energy and Environment Lab, Southeast University  | Nanjing, China             | Jun 2019 | Jul 2021 |
-|    2.   | Research Internee                    | Malakand-3 Hydro Power Plant                      | Dargai, Pakistan           | Sep 2020 |  Current |
-|    3.   | Triple Play Installer (TPI) Engineer | Pakistan Telecommunication Company Limited (PTCL) | Swat, Pakistan             | Feb 2017 | Sep 2017 |
-|    4.   | Electrical Instructor                | Thana Institute of Technology                     | Barikot, Swat, Pakistan    | Dec 2014 | Mar 2017 |
-|    5.   | Electrical Instructor                | Sayyed College of Science & Technology            | Rahim Abad, Swat, Pakistan | Jan 2014 | Jan 2015 |
-|    6.   | Electrical Instructor                | Indus Polytechnic Institute                       | Odigram, Swat, Pakistan    | Jun 2013 | Jan 2014 |
-|    7.   | Electrical Instructor                | Saidu Polytechnic Institute                       | Mingora, Swat, Pakistan    | Jul 2012 | Jun 2013 |
+|    1.   | Ph.D. Researcher                     | Computer Science, University of Turin             | Turin, Italy               | Nov 2022 | Current  |
+|    2.   | Researcher Scholar                   | Pattern Recognition & Intelligent Systems, UCAS   | Shenzhen, China            | Jun 2022 | Nov 2022 |
+|    3.   | Customer service representative      | Elite Airport Concierge Services (Pvt) Ltd,       | Islamabad, Pakistan        | Mar 2022 | Jun 2022 |
+|    4.   | Chinese Language teacher             | The CNEX Technology                               | Rawalpindi, Pakistan       | May 2021 | Oct 2021 |
+|    5.   | Research Internee                    | Malakand-3 Hydro Power Plant                      | Dargai, Pakistan           | Sep 2020 | May 2021 |
+|    6.   | Researcher                           | Energy and Environment Lab, Southeast University  | Nanjing, China             | Jun 2019 | Jul 2021 |
+|    7.   | Triple Play Installer (TPI) Engineer | Pakistan Telecommunication Company Limited (PTCL) | Swat, Pakistan             | Feb 2017 | Sep 2017 |
+|    8.   | Electrical Instructor                | Thana Institute of Technology                     | Barikot, Swat, Pakistan    | Dec 2014 | Mar 2017 |
+|    9.   | Electrical Instructor                | Sayyed College of Science & Technology            | Rahim Abad, Swat, Pakistan | Jan 2014 | Jan 2015 |
+|    10.  | Electrical Instructor                | Indus Polytechnic Institute                       | Odigram, Swat, Pakistan    | Jun 2013 | Jan 2014 |
+|    11.  | Electrical Instructor                | Saidu Polytechnic Institute                       | Mingora, Swat, Pakistan    | Jul 2012 | Jun 2013 |
 
 # 7. Projects ⚙️
 
