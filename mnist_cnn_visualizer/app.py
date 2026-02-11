@@ -45,7 +45,7 @@ def create_cnn_model():
 try:
     model = keras.models.load_model('models/mnist_cnn_model.h5')
     print("Loaded existing model")
-except:
+except FileNotFoundError:
     print("Creating and training new model...")
     model = create_cnn_model()
     model.compile(

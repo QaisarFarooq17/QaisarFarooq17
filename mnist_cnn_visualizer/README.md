@@ -1,6 +1,6 @@
 # 🧠 MNIST CNN Visualizer
 
-An interactive web application for drawing digits and visualizing how a Convolutional Neural Network (CNN) processes them in real-time with 3D layer visualizations.
+An interactive web application for drawing digits and visualizing how a Convolutional Neural Network (CNN) processes them in real-time with layer visualizations.
 
 ![MNIST CNN Visualizer](https://img.shields.io/badge/Deep%20Learning-CNN-blue)
 ![Python](https://img.shields.io/badge/Python-3.8+-green)
@@ -11,7 +11,7 @@ An interactive web application for drawing digits and visualizing how a Convolut
 
 - **Interactive Drawing Pad**: Draw digits 0-9 on a canvas with mouse or touch
 - **Real-time Predictions**: Instant digit recognition using a trained CNN model
-- **3D Layer Visualization**: See how each layer of the neural network activates
+- **Layer Visualization**: See how each layer of the neural network activates
 - **Neuron Activation Display**: Visualize which neurons and filters contribute most
 - **Probability Distribution**: View confidence scores for all digit classes
 - **Layer-by-Layer Analysis**: Explore convolutional, pooling, and dense layers
@@ -102,9 +102,9 @@ Subsequent runs will load the pre-trained model instantly.
 
 ## 🎨 Visualization Features
 
-### 3D Layer Representations
+### Layer Visualizations
 
-- **Convolutional Layers**: Displayed as colored boxes
+- **Convolutional Layers**: Displayed as colored boxes in a grid
   - Height represents activation strength
   - Color gradient from blue (low) to red (high)
   
@@ -133,8 +133,7 @@ Shows detailed statistics:
 - **Pillow**: Image processing
 
 ### Frontend
-- **HTML5 Canvas**: For drawing interface
-- **Three.js**: 3D visualization library
+- **HTML5 Canvas**: For drawing interface and visualizations
 - **CSS3**: Modern styling with gradients and animations
 - **Vanilla JavaScript**: No frameworks, lightweight and fast
 
@@ -219,14 +218,12 @@ This project is open source and available under the MIT License.
 
 - MNIST Dataset by Yann LeCun
 - TensorFlow/Keras teams
-- Three.js community
 - Inspiration from neural network visualization pioneers
 
 ## 📚 References
 
 - [MNIST Database](http://yann.lecun.com/exdb/mnist/)
 - [Understanding CNNs](https://cs231n.github.io/convolutional-networks/)
-- [Three.js Documentation](https://threejs.org/docs/)
 - [Neural Network Visualization](https://github.com/aharley/nn_vis)
 
 ---

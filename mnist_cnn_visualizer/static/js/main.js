@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded', () => {
     // Initialize drawing canvas
     drawingCanvas = new DrawingCanvas('drawCanvas');
     
-    // Initialize 3D visualizer
+    // Initialize 2D canvas visualizer
     visualizer = new CNNVisualizer('visualizationContainer');
     
     // Setup event listeners
