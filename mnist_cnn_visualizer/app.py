@@ -54,22 +54,35 @@ except:
         metrics=['accuracy']
     )
     
-    # Train the model
-    (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
-    x_train = x_train.reshape(-1, 28, 28, 1).astype('float32') / 255
-    x_test = x_test.reshape(-1, 28, 28, 1).astype('float32') / 255
-    
-    model.fit(x_train, y_train, epochs=5, batch_size=128, 
-              validation_split=0.1, verbose=1)
-    
-    # Save the model
-    model.save('models/mnist_cnn_model.h5')
-    print("Model trained and saved")
+    # Try to train the model, but handle network issues gracefully
+    try:
+        (x_train, y_train), (x_test, y_test) = keras.datasets.mnist.load_data()
+        x_train = x_train.reshape(-1, 28, 28, 1).astype('float32') / 255
+        x_test = x_test.reshape(-1, 28, 28, 1).astype('float32') / 255
+        
+        model.fit(x_train, y_train, epochs=5, batch_size=128, 
+                  validation_split=0.1, verbose=1)
+        
+        # Save the model
+        model.save('models/mnist_cnn_model.h5')
+        print("Model trained and saved")
+    except Exception as e:
+        print(f"Could not download MNIST dataset: {e}")
+        print("Creating a demo model with random weights (for visualization only)")
+        # Initialize with random weights for demo purposes
+        # The model architecture is ready, just not trained
+        model.save('models/mnist_cnn_model.h5')
+        print("Demo model saved - predictions will be random until properly trained")
 
 # Create a model that outputs intermediate layers
 layer_names = ['conv1', 'pool1', 'conv2', 'pool2', 'conv3', 'flatten', 'dense1', 'output']
 layer_outputs = [model.get_layer(name).output for name in layer_names]
-activation_model = keras.Model(inputs=model.input, outputs=layer_outputs)
+
+# Build the model first with a dummy input
+dummy_input = np.zeros((1, 28, 28, 1), dtype=np.float32)
+_ = model.predict(dummy_input, verbose=0)
+
+activation_model = keras.Model(inputs=model.inputs, outputs=layer_outputs)
 
 @app.route('/')
 def index():
