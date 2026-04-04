@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MNIST CNN Visualizer - Interactive Digit Recognition</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>🧠 MNIST CNN Visualizer</h1>
+            <p>Draw a digit and see how the neural network processes it in real-time</p>
+        </header>
+
+        <div class="main-content">
+            <!-- Drawing Canvas Section -->
+            <div class="canvas-section">
+                <h2>✏️ Draw a Digit</h2>
+                <div class="canvas-container">
+                    <canvas id="drawCanvas" width="280" height="280"></canvas>
+                </div>
+                <div class="controls">
+                    <button id="clearBtn" class="btn btn-secondary">🗑️ Clear</button>
+                    <button id="predictBtn" class="btn btn-primary">🔍 Predict</button>
+                </div>
+                
+                <!-- Prediction Result -->
+                <div id="predictionResult" class="prediction-result hidden">
+                    <div class="predicted-digit">
+                        <span id="predictedNumber">-</span>
+                        <span id="successCheck" class="success-check">✓</span>
+                    </div>
+                    <div class="confidence">
+                        Confidence: <span id="confidenceValue">0%</span>
+                    </div>
+                </div>
+
+                <!-- Probability Distribution -->
+                <div id="probabilityChart" class="probability-chart hidden">
+                    <h3>Probability Distribution</h3>
+                    <div class="chart-container">
+                        <div class="chart-bars" id="chartBars"></div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Layer Visualization Section -->
+            <div class="visualization-section">
+                <h2>🎨 Layer Visualization</h2>
+                <div class="visualization-controls">
+                    <label for="layerSelect">Select Layer:</label>
+                    <select id="layerSelect">
+                        <option value="0">Conv Layer 1</option>
+                        <option value="1">Pool Layer 1</option>
+                        <option value="2">Conv Layer 2</option>
+                        <option value="3">Pool Layer 2</option>
+                        <option value="4">Conv Layer 3</option>
+                        <option value="5">Flatten</option>
+                        <option value="6">Dense Layer</option>
+                        <option value="7" selected>Output Layer</option>
+                    </select>
+                </div>
+                <div id="visualizationContainer"></div>
+                
+                <!-- Layer Information -->
+                <div id="layerInfo" class="layer-info hidden">
+                    <h3>Layer Information</h3>
+                    <div id="layerDetails"></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Network Architecture Display -->
+        <div class="architecture-section">
+            <h2>🏗️ Network Architecture</h2>
+            <div id="architectureDisplay" class="architecture-display">
+                <div class="arch-layer">
+                    <div class="arch-block input-block">
+                        <div class="arch-label">Input</div>
+                        <div class="arch-size">28×28×1</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-layer">
+                    <div class="arch-block conv-block">
+                        <div class="arch-label">Conv2D</div>
+                        <div class="arch-size">32 filters</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-layer">
+                    <div class="arch-block pool-block">
+                        <div class="arch-label">MaxPool</div>
+                        <div class="arch-size">2×2</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-layer">
+                    <div class="arch-block conv-block">
+                        <div class="arch-label">Conv2D</div>
+                        <div class="arch-size">64 filters</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-layer">
+                    <div class="arch-block pool-block">
+                        <div class="arch-label">MaxPool</div>
+                        <div class="arch-size">2×2</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-layer">
+                    <div class="arch-block conv-block">
+                        <div class="arch-label">Conv2D</div>
+                        <div class="arch-size">64 filters</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-layer">
+                    <div class="arch-block dense-block">
+                        <div class="arch-label">Dense</div>
+                        <div class="arch-size">64 neurons</div>
+                    </div>
+                </div>
+                <div class="arch-arrow">→</div>
+                <div class="arch-layer">
+                    <div class="arch-block output-block">
+                        <div class="arch-label">Output</div>
+                        <div class="arch-size">10 classes</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <footer>
+            <p>Created for real-time CNN visualization | Inspired by nn_vis and 3D CNN tutorials</p>
+        </footer>
+    </div>
+
+    <script src="{{ url_for('static', filename='js/canvas.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/visualization.js') }}"></script>
+    <script src="{{ url_for('static', filename='js/main.js') }}"></script>
+</body>
+</html>
